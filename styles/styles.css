@@ -1,0 +1,89 @@
+.container__main {
+    display: grid;
+    height: 940px;
+    padding: 10px;
+    margin: 20px;
+
+    justify-items: center;
+    justify-content: center;
+}
+
+h1,
+p,
+button,
+#birthday {
+    font-family: "Montserrat Alternates", sans-serif;
+    color: #63a2d6;
+}
+
+h1 {
+
+    font-weight: bold;
+    font-style: normal;
+    font-size: clamp(1.25rem, 0.536rem + 1.905vw, 2.25rem);
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    padding-top: 5%;
+    padding-right: 1%;
+}
+
+p {
+    font-weight: 400;
+    font-style: italic;
+
+    text-align: center;
+}
+
+.error {
+    color: red;
+}
+
+#birthday {
+    border: 1px solid #B9D0DF;
+    padding: 2%;
+}
+
+button {
+    background-color: #B9D0DF;
+    border: 1px solid #B9D0DF;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    margin: 4%;
+    outline: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    touch-action: manipulation;
+    transition: 1s;
+    user-select: none;
+    -webkit-user-select: none;
+    /*width 100px-170px*/
+    width: clamp(7.5rem, 5.268rem + 5.952vw, 10.625rem);
+    height: 40px;
+}
+
+#creator {
+    color: #63a2d6;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.creator__link {
+    text-align: center;
+}
+
+.creator__link-container {
+    text-align: center;
+}
+
+.error,
+#birthday,
+button,
+.creator__link-container {
+    font-size: clamp(0.813rem, 0.679rem + 0.357vw, 1rem);
+}
